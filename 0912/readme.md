@@ -8,3 +8,4 @@
 구조체
 srand
 프로토타입 시그니처
+typedef
