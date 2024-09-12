@@ -5,6 +5,9 @@
 # Prerequisites
 *.d
 
+#visualStudio files
+*.vs
+
 # Compiled Object files
 *.slo
 *.lo
