@@ -53,7 +53,27 @@ _키보드 상하좌우 키 값에 따라 이동하며 A를 출력함_
 키 값에 따라 이동한 화면 :   
 ![image](https://github.com/user-attachments/assets/4bdee41e-e254-45c4-9ac6-46e25eba32fd)
 
+#### square.cpp
+_입력한 값 n에 따라 한 변의 길이가 n인 정사각형 출력_   
+_해당 코드로 실행했을 때 정사각형이 제대로 출력되지 않는 이유는, 공백의 상하 크기가 다르기 때문임_   
+![image](https://github.com/user-attachments/assets/a6369ece-a799-4b8a-9259-7e2cb358965c)
 
 ------------------------
 
+### 메뉴 만들기
+#### menu.cpp
+![image](https://github.com/user-attachments/assets/b7cade56-1919-4581-9709-ce425779e03b)
+> 입력값이 1일 때   
+> ![image](https://github.com/user-attachments/assets/07d04eda-e0c1-4371-a369-c73805ac5330)
+   
+> 입력값이 2일 때   
+> ![image](https://github.com/user-attachments/assets/7012def2-6ed8-4b26-af58-3583484a26b6)
+   
+> 입력값이 3일 때   
+> ![image](https://github.com/user-attachments/assets/fa6db9b6-a1bb-4a4e-aa23-0eb197fe7322)
 
+
+### 주사위 눈금 난수 생성
+#### randNumber.cpp
+_1~6까지의 랜덤한 수를 10번 생성하여 출력_   
+![image](https://github.com/user-attachments/assets/41546db4-e4dd-4b3a-bdf1-39dbae64ca30)
