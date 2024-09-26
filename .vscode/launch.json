@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe", // 실행할 프로그램 경로
+            "args": [], // 프로그램에 전달할 인자
+            "stopAtEntry": false, // 프로그램 시작 시 중단할지 여부
+            "cwd": "${workspaceFolder}", // 현재 작업 디렉토리
+            "environment": [], // 환경 변수
+            "externalConsole": true, // 외부 콘솔 사용 여부
+            "MIMode": "gdb", // GDB 모드
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe 활성 파일 빌드", // 빌드 작업 이름
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe", // GDB 경로
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
