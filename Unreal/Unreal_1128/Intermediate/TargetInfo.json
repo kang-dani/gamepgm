@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Unreal_1128",
+			"Path": "..\\Source\\Unreal_1128.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Unreal_1128Editor",
+			"Path": "..\\Source\\Unreal_1128Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

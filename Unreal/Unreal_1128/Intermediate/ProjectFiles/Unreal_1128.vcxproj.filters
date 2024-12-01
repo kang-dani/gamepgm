@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Unreal_1128.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Unreal_1128.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Unreal_1128Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Unreal_1128">
+      <UniqueIdentifier>{D4904931-8B3B-3E36-8455-B0C9E4112058}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Unreal_1128\MyPawn.cpp">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_1128\MyPawn.h">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Unreal_1128\Unreal_1128.Build.cs">
+      <Filter>Source\Unreal_1128</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Unreal_1128\Unreal_1128.cpp">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_1128\Unreal_1128.h">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal_1128\Unreal_1128Character.cpp">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_1128\Unreal_1128Character.h">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal_1128\Unreal_1128GameMode.cpp">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_1128\Unreal_1128GameMode.h">
+      <Filter>Source\Unreal_1128</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
